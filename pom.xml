@@ -70,6 +70,7 @@
                         <configuration>
                             <outputDirectory>${libraries.directory}</outputDirectory>
                             <excludeScope>provided</excludeScope>
+                            <includeScope>runtime</includeScope>
                         </configuration>
                     </execution>
                 </executions>
